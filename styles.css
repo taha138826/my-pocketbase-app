@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+  direction: rtl;
+}
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+input, textarea {
+  width: 80%;
+  max-width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: block;
+  font-size: 16px;
+}
+textarea {
+  resize: vertical;
+}
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover {
+  background-color: #0056b3;
+}
+#report {
+  margin-top: 20px;
+  text-align: right;
+  font-size: 14px;
+}
+#report div {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+#videoPlayer {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+img, video {
+  max-width: 300px;
+  margin: 10px 0;
+}
